@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	
+}
+
+#head{
+	font-family: 'Pacifico', cursive;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(diaries.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #E8A87C;
+    padding: 0 20px;
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes heading{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+#head h1{
+	font-size: 50px;
+}
+
+#head p{
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+#head .btn{
+	padding: 1rem 2rem;
+	border: white 1px solid;
+	text-decoration: none;
+	border-radius: 3px;
+	transition-property: background;
+	transition-duration: 1s;
+	animation-name: anim;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes anim{
+ 0%{opacity: 0;}
+ 100%{opacity: 1;}
+}
+
+#head .btn:hover{
+	background-color: white;
+}
+
+#head .text{
+	float: right;
+}
