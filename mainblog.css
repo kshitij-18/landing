@@ -22,8 +22,7 @@ body{
 }
 
 .videodes{
-	display: grid;
-	justify-content: center;
+	justify-content:right;
 	border: #808080 1px solid;
 	float: right;
 	padding: 10px;
@@ -32,6 +31,7 @@ body{
 	margin-right: 5px;
 	border-radius: 2px;
 	box-shadow: 1px 1px 10px black;
+	width: 30vw;
 }
 
 #video{
@@ -43,5 +43,40 @@ body{
 	padding: 15px;
 	width: auto;
 	height: auto;
+display: inline-block;
+}
 
+.body1{
+	width: 25em;
+	display: inline-block;
+	padding: 5px;
+	margin-block-end: 5px;
+}
+
+.body{
+	/*width: 40px;*/
+	border: 1px solid black;
+	display: flex;
+	overflow: auto;
+}
+
+#footer{
+	position: absolute;
+	/*left: 0;*/
+	bottom: 0;
+	width: 100%;
+	background-color: bisque;
+	text-align: center;
+	margin: 0 auto;
+	height: 100px;
+	line-height: 3.5;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+/*********************************************************MOBILE-USERS***********************************************************/
+@media screen and(max-width:786px)
+{
+	body{
+		background-color: aquamarine;
+	}
 }
