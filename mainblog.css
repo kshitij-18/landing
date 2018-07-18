@@ -34,8 +34,9 @@ body{
 	margin-right: 5px;
 	border-radius: 2px;
 	box-shadow: 1px 1px 10px black;
-	width: 30vw;
-	
+	width: 32vw;
+	overflow: auto;
+	right:0;
 }
 
 #video{
@@ -62,7 +63,7 @@ display: flex;
 .body{
 	width: 25em;
 	display: flex;
-	padding: 5px;
+	padding: 10px;
 	border: 1px solid #808080;
 	overflow: auto;
 	border-radius: 3px;
@@ -107,6 +108,15 @@ display: flex;
    bottom: 0;
    align-content: center;
    left: 300px;
+   line-height: 1.5;
+   background-color: darkslategray;
+padding: 3px;
+border: 1px solid darkslategray;
+border-radius: 5px;
+}
+
+#name{
+	width: 2em;
 }
 /*********************************************************MOBILE-USERS***********************************************************/
 @media screen and (max-width:786px)
@@ -114,7 +124,9 @@ display: flex;
 	body{
 		background-color: aquamarine;
 	}
-}
-.videodes{
-	display: flex;
+	.videodes{
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+	}
 }
