@@ -144,6 +144,13 @@ display: flex;
 	box-shadow: 1px 1px 10px rgb(59,89,152);
 	width:20em;
 }
+
+.form{
+	line-height: 1.6;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
 /*********************************************************MOBILE-USERS***********************************************************/
 @media screen and (max-width:786px)
 {
