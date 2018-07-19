@@ -147,9 +147,6 @@ display: flex;
 /*********************************************************MOBILE-USERS***********************************************************/
 @media screen and (max-width:786px)
 {
-	body{
-		background-color: aquamarine;
-	}
 	.videodes{
 		display: flex;
 		flex-direction: column;
