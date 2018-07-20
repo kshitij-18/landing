@@ -162,10 +162,10 @@ display: flex;
 	.videodes{
 		display: flex;
 		flex-direction: column;
-		width: 100vw;
+		width: 100%;
 	}
 	#feedback{
 		display: flex;
-		
+		flex-direction: column;
 	}
 }
