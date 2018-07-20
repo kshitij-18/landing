@@ -154,6 +154,11 @@ display: flex;
 /*********************************************************MOBILE-USERS***********************************************************/
 @media screen and (max-width:786px)
 {
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+
 	.videodes{
 		display: flex;
 		flex-direction: column;
