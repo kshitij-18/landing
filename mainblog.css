@@ -37,6 +37,7 @@ body{
 	width: 32vw;
 	overflow: auto;
 	right:0;
+	display: 
 }
 
 #video{
@@ -104,7 +105,7 @@ display: flex;
 }*/
 
 #feedback{
-   position : absolute;
+   position :static;
    bottom: 0;
    align-content: center;
    left: 300px;
@@ -113,6 +114,11 @@ display: flex;
    padding: 15px;
    border: 1px solid lightgray;
    border-radius: 5px;
+   display: table;
+   width: fit-content;
+   padding: 10px;
+   margin: 5px;
+   box-shadow: 1px 1px 10px lightgray;
 }
 
 #name{
@@ -123,6 +129,7 @@ display: flex;
 	transition: box-shadow,width;
 	transition-duration: 1s;
 	padding:5px;
+	
 }
 
 #name:focus{
