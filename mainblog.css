@@ -167,5 +167,6 @@ display: flex;
 	#feedback{
 		display: flex;
 		flex-direction: column;
+		bottom: 0;
 	}
 }
