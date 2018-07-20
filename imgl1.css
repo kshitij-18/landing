@@ -40,7 +40,7 @@ body{
 	border: white 1px solid;
 	text-decoration: none;
 	border-radius: 3px;
-	transition-property: background;
+	transition-property: background-color;
 	transition-duration: 1s;
 	animation-name: anim;
 	animation-duration: 2s;
