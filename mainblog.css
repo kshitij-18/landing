@@ -109,15 +109,15 @@ display: flex;
    align-content: center;
    left: 300px;
    line-height: 1.5;
-   background-color:grey;
+   background-color:lightgray;
    padding: 15px;
-   border: 1px solid grey;
+   border: 1px solid lightgray;
    border-radius: 5px;
 }
 
 #name{
 	width: 10em;
-	border: 1px solid grey;
+	border: 1px solid lightgray;
 	border-radius: 2px;
 	line-height: 1.6;
 	transition: box-shadow,width;
@@ -132,7 +132,7 @@ display: flex;
 
 #mail{
 	width: 10em;
-	border: 1px solid grey;
+	border: 1px solid lightgray;
 	border-radius: 2px;
 	line-height: 1.6;
 	transition: box-shadow,width;
@@ -150,6 +150,10 @@ display: flex;
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
+}
+
+.form-element{
+	font-family: 'Gaegu', cursive;
 }
 /*********************************************************MOBILE-USERS***********************************************************/
 @media screen and (max-width:786px)
