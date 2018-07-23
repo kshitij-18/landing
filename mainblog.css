@@ -33,7 +33,7 @@ body{
 	background-color: #808080;
 	margin-right: 5px;
 	border-radius: 2px;
-	box-shadow: 1px 1px 10px black;
+	box-shadow: 1px 1px 10px #808080;
 	width: 32vw;
 	overflow: auto;
 	right:0;
@@ -105,8 +105,9 @@ display: flex;
 }*/
 
 #feedback{
-   position :static;
+   position :absolute;
    bottom: 0;
+   left: 0;
    align-content: center;
    left: 300px;
    line-height: 1.5;
